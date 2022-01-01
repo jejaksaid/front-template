@@ -1,1 +1,1 @@
-# front-template
+# front-template with html, css, js
