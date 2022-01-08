@@ -45,3 +45,26 @@ var swiper = new Swiper(".home-slider", {
     },
 });
 
+var swiper = new Swiper(".product-slider", {
+    logo:true,
+    grabCursor:true,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidePerView: 1,
+        },
+        640: {
+            slidePerView: 2,
+        },
+        768: {
+            slidePerView: 3,
+        },
+        1024: {
+            slidePerView: 4,
+        },
+    },
+});
